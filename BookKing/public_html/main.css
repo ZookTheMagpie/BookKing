@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25.feb.2016, 13:20:52
+    Author     : Øystein
+*/
+
+#navigation{
+    float: left;
+    background: green;
+    width: 100%;
+    height: 40px;
+}
+
+#navigation ul{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#navigation li  {
+    position: relative;
+    display: inline-block;
+    background: black;
+    padding: 9px;
+}
+
+#navigation li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+#navigation li ul{
+    display: none;
+    position: absolute;
+    padding-top: 10px;
+}
+
+#navigation li:hover ul{
+    display: block;
+}
+
+#navigation li li   {
+    display: block;
+    background: red;
+}
