@@ -1,7 +1,14 @@
 html
 {
     background-color: #fdf5e6;
+    position: relative;
+    min-height: 100%;
 }
+
+body{
+    margin: 0 0 100px;
+}
+
 header
 {
     background-color: blue;
@@ -31,12 +38,13 @@ aside
 
 footer
 {
-    background-color: magenta;
-    text-align: center;
-    width: 100%;
     position: absolute;
     left: 0;
     bottom: 0;
+    height: 100px;
+    width: 100%;
+    background: green;
+    text-align: center;
 }
 
 /*
