@@ -1,30 +1,82 @@
+html
+{
+    background-color: #fdf5e6;
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    margin: 0 0 100px;
+}
+
+header
+{
+    background-color: blue;
+}
+
+section
+{
+    background-color: red;
+    width: 75%;
+    float: left;
+}
+
+article
+{
+    background-color: orange;
+    float: left;
+    width: 43%;
+    margin: 3%;
+}
+
+aside
+{
+    background-color: yellow;
+    width: 24.5%;
+    float: right;
+}
+
+footer
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background: green;
+    text-align: center;
+}
+
 /*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
+    The navigation 
     Created on : 25.feb.2016, 13:20:52
-    Author     : Øystein
+    Author     : Øystein & Alexander
+    Change log:
+        -1.3.16: Changed colour and form of the navigation
+        -1.3.16: Fixed overlapping navigation elements
 */
 
 #navigation{
     float: left;
-    background: green;
+    background: #360A09;
     width: 100%;
-    height: 40px;
+    min-height: 40px;
+    overflow: hidden;
 }
 
 #navigation ul{
-    padding-top: 0;
+    
     margin-top: 0;
+    margin-left: 5%;
 }
 
 #navigation li  {
+    margin-top: 2px;
     position: relative;
     display: inline-block;
-    background: black;
-    padding: 9px;
+    background: #732407;
+    padding: 5px;
+    border-radius: 2px;
 }
 
 #navigation li a {
@@ -45,5 +97,7 @@ and open the template in the editor.
 
 #navigation li li   {
     display: block;
-    background: red;
+    background: #834923;
+    box-sizing: content-box;
+    padding: 11px;
 }
