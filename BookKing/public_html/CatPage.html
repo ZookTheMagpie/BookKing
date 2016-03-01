@@ -6,18 +6,71 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <link rel="stylesheet" href="catpage.css">
         <title>Book King</title>
-        <meta charset="UTF-8">              
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" href="catpage.css">
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
     </head>
     <body>
+        <nav id="navigation">
+            <ul>
+                <li><a href="#">Home</a>
+                    <ul>
+                        <li>
+                            <a href="#">sub1</a>
+                            <a href="#">sub2</a>
+                            <a href="#">sub3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Kategoriside</a></li>
+                <li><a href="#">Forum</a></li>
+                <li><a href="#">Wiki</a></li>
+                <li><a href="#">Andre medium</a></li>
+                <li><a href="#">Om oss</a></li>
+            </ul>
+        </nav>
         <aside>
-            
-            <!-- TODO  Proper drop-down list -->
-            <select name="Fantasy">
-                    <option>Dark fantasy</option>
-                    <option>Sci-fantasy</option>
-                </select>
+            /* This is the category list */
+            <!-- TODO  If have time make better drop-down list -->
+            <h3> Categories</h3>
+                <div class="dropdown">
+                    <button class="dropbtn">Fantasy</button>
+                     <div class="dropdown-content">
+                        <a href="#">Dark Fantasy</a>
+                        <a href="#">Science Fantasy</a>
+                        <a href="#">Low Fantasy</a>
+                        <a href="#">High Fantasy</a>
+                     </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Science Fiction</button>
+                     <div class="dropdown-content">
+                        <a href="#">Cyberpunk</a>
+                        <a href="#">Steampunk</a>
+                        <a href="#">Hard Science Fiction</a>
+                        <a href="#">Gothic Science Fiction</a>
+                     </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Historical Fiction</button>
+                     <div class="dropdown-content">
+                        <a href="#">Nautical Fiction</a>
+                        <a href="#">Alternate History</a>
+                        <a href="#">Historical mystery</a>
+                        <a href="#">Family Saga</a>
+                     </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Fact Books</button>
+                     <div class="dropdown-content">
+                        <a href="#">Cooking</a>
+                        <a href="#">Travel</a>
+                        <a href="#">Manuals</a>
+                     </div>
+                </div>
                 
         </aside>
         <!-- TODO section changes depending on drop-down list choice -->
