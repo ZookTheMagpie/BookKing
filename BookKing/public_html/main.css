@@ -2,6 +2,11 @@ html
 {
     background: url(https://c2.staticflickr.com/8/7422/12209459935_a0f969ddd6_b.jpg)repeat;
 }
+
+body{
+    margin: 0 0 100px;
+}
+
 header
 {
     background-color: blue;
@@ -39,12 +44,13 @@ aside
 
 footer
 {
-    background-color: magenta;
-    text-align: center;
-    width: 100%;
     position: absolute;
     left: 0;
     bottom: 0;
+    height: 100px;
+    width: 100%;
+    background: green;
+    text-align: center;
 }
 
 /*
@@ -53,6 +59,7 @@ footer
     Author     : Øystein & Alexander
     Change log:
         -1.3.16: Changed colour and form of the navigation
+        -1.3.16: Fixed overlapping navigation elements
 */
 
 #navigation{
@@ -64,16 +71,18 @@ footer
 }
 
 #navigation ul{
-    padding-top: 0;
+    
     margin-top: 0;
+    margin-left: 5%;
 }
 
 #navigation li  {
+    margin-top: 2px;
     position: relative;
     display: inline-block;
     background: #732407;
-    padding: 0.6%;
-    border-radius: 5%;
+    padding: 5px;
+    border-radius: 2px;
 }
 
 #navigation li a {
