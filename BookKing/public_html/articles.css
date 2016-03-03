@@ -1,0 +1,60 @@
+/* 
+    Created on : 01.mar.2016, 14:23:33
+    Author     : Øystein
+*/
+
+aside{
+    background: red;
+    float: left;
+    height: 500px;
+    width: 25%;
+    max-width: 230px;
+}
+
+section{
+    min-width: 100%;
+    background: pink;
+    height: 100%;
+    position: relative;
+   
+}
+
+.sectionHeader{
+    width: 70%;
+    background: blue;
+    height: 100px;
+    overflow: hidden;
+}
+.sectionHeader img{
+    float: left;
+    
+}
+
+.details{
+   float: left;
+   display: inline-block;
+    background: bisque;
+    height: 100px;
+    width: 500px;
+    overflow: hidden;
+    margin-left: 10%;
+}
+
+article{
+    position: relative;
+    height: 300px;
+    width: 70%;
+    background: grey;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+article p{
+    
+}
+
+.related{
+   position: absolute;
+   bottom:0;
+   left:0;
+}
