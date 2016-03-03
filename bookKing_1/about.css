@@ -1,0 +1,65 @@
+/* 
+The navigation 
+    Created on : 01.march.2016, 13:20:52
+    Author     : Kristian
+    Change log:
+        -1.3.16: 
+*/
+#meny{
+    
+    float: left;
+    background-color: blue;
+        
+}
+
+#meny li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+#meny li{
+     list-style-type: none;
+}
+
+#meny a:hover{
+    background: #969694;
+    border: 1px solid #999;
+  
+}
+
+#about {
+    
+    opacity: 1;
+    background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+}
+
+#about_form {
+    margin-left: 38%;
+    
+    
+}
+
+#email {
+    
+    margin-bottom: 1%;
+    margin-left: 1.3%;
+    
+}
+
+#comment {
+    margin-bottom: 1%;
+    
+}
+
+#subject {
+    margin-bottom: 1%;
+    
+}
+
+#submit {
+    margin-bottom: 1%;
+    
+}
