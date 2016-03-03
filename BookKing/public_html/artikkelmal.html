@@ -1,10 +1,10 @@
 <!--
-    The main  page (index)
-    Created on : 25.2.2016
+    The layout for articles
+    Created on : 1.3.2016
     Author     : Hallvard & Alexander
     Change log:
         -1.3.16: Added the navigation menu with links to; About us
-        -1.3.16: Added background image, did some changes to section and aside.
+                 Made site for articles
 -->
 
 <!DOCTYPE html>
@@ -12,7 +12,8 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="normalize.css">
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="articles.css" rel="stylesheet" type="text/css"/>
         <title>Book King</title>
         <meta charset="UTF-8">
     </head>
@@ -40,27 +41,34 @@
             </ul>
         </nav>
         
-        
         <section>
+            
+            <aside>testy</aside>
+            <div class="sectionHeader">
+                <img src="test_pic.jpg" alt="Placeholder picture">
+                <div class="details">
+                    <p>Insert details about book here</p>
+                </div>
+            </div>
             <article>
-                <p>Test</p>
+                <h3>-Title-</h3>
+                <p>Write about the book</p>
+                <p></p>
+                <h3>-Title-</h3>
+                <p>Write more about the book</p>
+                
+                <div class="related">
+                <img src="test_pic.jpg" alt="Placeholder picture">
+                <img src="test_pic.jpg" alt="Placeholder picture">
+                <img src="test_pic.jpg" alt="Placeholder picture">
+                <img src="test_pic.jpg" alt="Placeholder picture">
+            </div>
             </article>
-            <article>
-                <p>Test</p>
-            </article>
-            <article>
-                <p>Test</p>
-            </article>
-            <article>
-                <p>Test</p>
-            </article>
+            
+            
+            
+                
         </section>
-        
-        <aside>
-            <h3>Lorem ipsum</h3>
-            <p>-Dolor si amet.</p>
-            <p>-Ponti ost al meier.</p>
-        </aside>
         
         <footer>
             <p>Test</p>
