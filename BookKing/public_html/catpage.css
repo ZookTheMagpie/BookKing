@@ -62,9 +62,7 @@ and open the template in the editor.
 
 html
 {
-    background-color: cyan;
-    position: relative;
-    min-height: 100%;
+  background: url(https://c2.staticflickr.com/8/7422/12209459935_a0f969ddd6_b.jpg)repeat;
 }
 
 body{
@@ -73,14 +71,22 @@ body{
 
 aside {
     float: left;
-    background-color: red;
-    width: 24.5%;
+    background-color: #FFC154;
+    width: 23%;
+    border-radius: 6px 6px 6px 6px;
+    border-style: groove;
+    border-color: #FFC454;
+    border-width: 5px;
 }
 
 section {
-    float: right;
-    background-color: yellow;
+    background-color: #ffffff;
+    opacity: 0.4;
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
     width: 75%;
+    float: right;
+    z-index: -1;
 }
 
 header
