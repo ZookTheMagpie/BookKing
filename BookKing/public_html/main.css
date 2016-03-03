@@ -9,7 +9,14 @@ body{
 
 header
 {
-    background-color: blue;
+    
+}
+
+img
+{
+    height: auto;
+    max-height: 200px;
+    width: 100%;
 }
 
 section
@@ -71,7 +78,7 @@ footer
 }
 
 #navigation ul{
-    
+
     margin-top: 0;
     margin-left: 5%;
 }
