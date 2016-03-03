@@ -119,6 +119,7 @@ footer
 .dropdown {
     position: relative;
     display: inline-block;
+    width: 100px;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -139,7 +140,8 @@ footer
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {}
+.dropdown-content a:hover {
+}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -148,5 +150,4 @@ footer
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-
 }
