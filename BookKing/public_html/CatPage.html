@@ -15,19 +15,29 @@ and open the template in the editor.
     </head>
     <body>
         <header> 
-            <p>Headline</p>
+            <img src="BookKingHeader.jpg">
         </header>
         
-        <nav id="navigation">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="CatPage.html">Categories</a>
+        <nav id="nav">
+            <ul id="navigation">
+                <li><a href="index.html">Home</a>
+                </li>
+                <li><a href="CatPage.html">Categories &raquo;</a>
                     <ul>
-                        <li>
-                            <a href="#">Fantasy</a>
-                            <a href="#">Science Fiction</a>
-                            <a href="#">Historical Fiction</a>
+                        <li><a href="#">Fantasy &raquo;</a>
+                            <ul>
+                                <li><a href="#">Dark-Fantasy</a></li>
+                                <li><a href="#">Science Fantasy</a></li>
+                                <li><a href="#">Low Fantasy</a></li>
+                            </ul>
                         </li>
+                        <li><a href="#">Sci-fi</a>
+                            <ul>
+                                <li><a href="#">Cyberpunk</a></li>
+                                <li><a href="#">Steampunk</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Drama</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Forum</a></li>
@@ -41,7 +51,7 @@ and open the template in the editor.
             <!-- TODO  If have time make better drop-down list -->
             <h3> Categories</h3>
                 <div class="dropdown">
-                    <button class="dropbtn">Fantasy</button>
+                    <button class="dropbtn">Fantasy &raquo</button>
                      <div class="dropdown-content">
                         <a href="#">Dark Fantasy</a>
                         <a href="#">Science Fantasy</a>
@@ -50,7 +60,7 @@ and open the template in the editor.
                      </div>
                 </div>
                 <div class="dropdown">
-                    <button class="dropbtn">Science Fiction</button>
+                    <button class="dropbtn">Science Fiction &raquo</button>
                      <div class="dropdown-content">
                         <a href="#">Cyberpunk</a>
                         <a href="#">Steampunk</a>
@@ -59,7 +69,7 @@ and open the template in the editor.
                      </div>
                 </div>
                 <div class="dropdown">
-                    <button class="dropbtn">Historical Fiction</button>
+                    <button class="dropbtn">Historical Fiction &raquo</button>
                      <div class="dropdown-content">
                         <a href="#">Nautical Fiction</a>
                         <a href="#">Alternate History</a>
@@ -68,7 +78,7 @@ and open the template in the editor.
                      </div>
                 </div>
                 <div class="dropdown">
-                    <button class="dropbtn">Fact Books</button>
+                    <button class="dropbtn">Fact Books &raquo</button>
                      <div class="dropdown-content">
                         <a href="#">Cooking</a>
                         <a href="#">Travel</a>
