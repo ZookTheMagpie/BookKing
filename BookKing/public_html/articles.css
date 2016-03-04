@@ -4,7 +4,7 @@
 */
 
 aside{
-    background: red;
+    
     float: left;
     height: 500px;
     width: 25%;
@@ -13,7 +13,7 @@ aside{
 
 section{
     min-width: 100%;
-    background: pink;
+   
     height: 100%;
     position: relative;
    
@@ -21,19 +21,20 @@ section{
 
 .sectionHeader{
     width: 70%;
-    background: blue;
+   
     height: 100px;
     overflow: hidden;
 }
 .sectionHeader img{
     float: left;
-    
+    height: 100px;
+    width: 100px;
 }
 
 .details{
    float: left;
    display: inline-block;
-    background: bisque;
+    
     height: 100px;
     width: 500px;
     overflow: hidden;
@@ -44,7 +45,7 @@ article{
     position: relative;
     height: 300px;
     width: 70%;
-    background: grey;
+   
     margin-left: 0;
     margin-top: 0;
 }

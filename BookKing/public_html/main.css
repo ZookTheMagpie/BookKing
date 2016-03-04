@@ -9,7 +9,7 @@ body{
 
 header
 {
-    
+
 }
 
 img
@@ -54,9 +54,10 @@ footer
     position: absolute;
     left: 0;
     bottom: 0;
+    opacity: 0.7;
     height: 100px;
     width: 100%;
-    background: green;
+    background: grey;
     text-align: center;
 }
 
@@ -69,49 +70,66 @@ footer
         -1.3.16: Fixed overlapping navigation elements
 */
 
-#navigation{
+ul#navigation{
     float: left;
-    background: #360A09;
+    position: relative;
+    background: ;
     width: 100%;
     height: 40px;
     z-index: 1;
 }
 
-#navigation ul{
-
-    margin-top: 0;
-    margin-left: 5%;
+ul#navigation ul li ul {
+    top: -11px;
+    left: 108px; /* strong related to width:180px; from above */
 }
 
-#navigation li  {
-    margin-top: 2px;
+ul#navigation li  {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
     position: relative;
-    display: inline-block;
+    float: left;
+    display: inline;
     background: #732407;
-    padding: 5px;
-    border-radius: 2px;
+    padding: 8px;
+    width: 13%;
 }
 
-#navigation li a {
+ul#navigation li a {
     display: inline-block;
     color: white;
     text-decoration: none;
 }
 
-#navigation li ul{
+ul#navigation li ul{
     display: none;
     position: absolute;
     padding-top: 10px;
 }
 
-#navigation li:hover ul{
+ul#navigation li:hover ul{
     display: block;
 }
 
-#navigation li li   {
+ul#navigation li:hover {
+    background: brown;
+}
+
+ul#navigation li:hover > ul
+{
+    visibility: visible;
+}
+
+ul#navigation ul, ul#navigation ul li ul {
+    visibility: hidden;
+}
+
+ul#navigation li li   {
     display: block;
-    background: #834923;
+    background: #732407;
     box-sizing: content-box;
+    width: 125px;
     padding: 11px;
     z-index: 1;
 }
