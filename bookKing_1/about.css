@@ -5,15 +5,20 @@ The navigation
     Change log:
         -1.3.16: 
 */
+
+
+
 #meny{
     
     float: left;
-    background-color: blue;
-        
+    
+    
+    margin-bottom: 100%;
+    
 }
 
 #meny li a{
-    color: white;
+    color: black;
     text-decoration: none;
     
 }
@@ -22,52 +27,49 @@ The navigation
      list-style-type: none;
 }
 
+#meny li li{
+    list-style-type: circle;
+}
+
 #meny a:hover{
     background: #969694;
-    border: 1px solid #999;
-  
 }
 
-#about {
+#section article{
+    margin: 0 0 0 20px;
+      
+    padding-left: 20px;
     
-    opacity: 1;
-    background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
-  background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
-  background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+}
+#section h2{ 
+    text-align: center;
+    color: white;
+          
 }
 
-#about_form {
-    margin-left: 38%;
+.ingress{
+    font-weight: bold;
     
+}
+.dropdown {
+    position: relative; 
     
-    
+    display: inline-block;
 }
 
-#email {
-    margin-top: 2%;
-    margin-bottom: 1%;
-    margin-left: 1.3%;
-    
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 100%;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
 }
 
-#comment {
-    margin-bottom: 1%;
-    
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
-#subject {
-    margin-bottom: 1%;
-    
-}
 
-#submit {
-    margin-bottom: 1%;
-    
-}
-
-#about_header {
-    margin-left: 41%;
-    font-size: 240%;
-    
-    
-}
