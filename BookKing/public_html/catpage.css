@@ -26,51 +26,70 @@ img
     width: 100%;
 }
 
-#navigation{
+ul#navigation{
     float: left;
-    background: #360A09;
-    width: 100%;
-    min-height: 40px;
-    overflow: hidden;
-}
-
-#navigation ul{
-    
-    margin-top: 0;
-    margin-left: 5%;
-}
-
-#navigation li  {
-    margin-top: 2px;
     position: relative;
-    display: inline-block;
-    background: #732407;
-    padding: 5px;
-    border-radius: 2px;
+    background: #330000;
+    width: 100%;
+    height: 40px;
+    z-index: 1;
 }
 
-#navigation li a {
+ul#navigation ul li ul {
+    top: -11px;
+    left: 108px; /* strong related to width:180px; from above */
+}
+
+ul#navigation li  {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    float: left;
+    display: inline;
+    background: #732407;
+    padding: 8px;
+    width: 13%;
+}
+
+ul#navigation li a {
     display: inline-block;
     color: white;
     text-decoration: none;
 }
 
-#navigation li ul{
+ul#navigation li ul{
     display: none;
     position: absolute;
     padding-top: 10px;
 }
 
-#navigation li:hover ul{
+ul#navigation li:hover ul{
     display: block;
 }
 
-#navigation li li   {
-    display: block;
-    background: #834923;
-    box-sizing: content-box;
-    padding: 11px;
+ul#navigation li:hover {
+    background: brown;
 }
+
+ul#navigation li:hover > ul
+{
+    visibility: visible;
+}
+
+ul#navigation ul, ul#navigation ul li ul {
+    visibility: hidden;
+}
+
+ul#navigation li li   {
+    display: block;
+    background: #732407;
+    box-sizing: content-box;
+    width: 125px;
+    padding: 11px;
+    z-index: 1;
+}
+
 
 html
 {
@@ -102,10 +121,6 @@ section {
     float: right;
 }
 
-header
-{
-    background-color: blue;
-}
 
 article
 {
