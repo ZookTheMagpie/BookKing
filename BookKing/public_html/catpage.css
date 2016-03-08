@@ -15,6 +15,16 @@ and open the template in the editor.
         -1.4.1; Added details to button, aligned the menu to button
 */
 <!-- TODO add possible sliding capability to section -->
+header
+{
+    
+}
+img
+{
+    height: auto;
+    max-height: 200px;
+    width: 100%;
+}
 
 #navigation{
     float: left;
@@ -110,9 +120,10 @@ footer
     position: absolute;
     left: 0;
     bottom: 0;
+    opacity: 0.7;
     height: 100px;
     width: 100%;
-    background: green;
+    background: grey;
     text-align: center;
 }
 
