@@ -34,9 +34,10 @@ Made by: Asbjørn Frostad.
             </ul>
         </nav>
         <section id="about">
-            <?php
-
-  
+    
+            <h2 id="about_header">Kontakt oss!</h2>
+            
+ <?php
   
   //Email information
   $admin_email = "geeky_assb@live.no";
