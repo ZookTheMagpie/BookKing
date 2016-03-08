@@ -114,7 +114,6 @@ aside {
 
 section {
     background-color: #ffffff;
-    opacity: 0.4;
     border: 1px solid black;
     border-radius: 10px 10px 10px 10px;
     width: 80%;
@@ -196,7 +195,7 @@ div.article {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    width: 190px;
 }
 
 div.article:hover {
