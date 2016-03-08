@@ -10,7 +10,7 @@ html
 
 body
 {
-    margin: 0 0 100px;
+    margin: 0 0 60px;
 }
 
 
@@ -35,15 +35,14 @@ section
     float: left;
     z-index: -1;
     padding: 3px;
-    padding-bottom: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 article
 {
     float: left;
     width: 43%;
-    margin: 3%;
+    margin: 1%;
 }
 
 aside
@@ -62,7 +61,7 @@ footer
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 100px;
+    height: 60px;
     width: 100%;
     background-color: rgba(150, 150, 150, .7);
     text-align: center;
@@ -139,4 +138,32 @@ ul#navigation li li   {
     width: 125px;
     padding: 11px;
     z-index: 1;
+}
+
+.article {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 190px;
+    background-color: #ffffff;
+}
+
+.article:hover {
+    border: 1px solid #777;
+}
+
+.article img {
+    width: 100%;
+    height: auto;
+}
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+img
+{
+    height: auto;
+    max-height: 200px;
+    width: 100%;
 }
