@@ -105,6 +105,7 @@ aside {
     height: 500px;
     background: #FFC454;
     color: white;
+    width: 10%;
     max-width: 230px;
     border-radius: 6px 6px 6px 6px;
     border-style: groove;
@@ -114,6 +115,8 @@ aside {
 section {
     border-radius: 10px 10px 10px 10px;
     width: 88%;
+    background-color: transparent;
+    border-color: transparent;
     float: right;
 }
 
@@ -130,17 +133,6 @@ article
     margin: 3%;
 }
 
-footer
-{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    opacity: 0.7;
-    height: 100px;
-    width: 100%;
-    background: grey;
-    text-align: center;
-}
 
 /* Style The Dropdown Button */
 .dropbtn {
