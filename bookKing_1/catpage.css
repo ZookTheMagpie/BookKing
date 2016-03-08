@@ -4,27 +4,123 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
+/*
+    The category page and category list 
     Created on : 25.feb.2016, 14:35:45
     Author     : Andre
+    Change log:
+        -1.3: Made a simple dropdown list
+        -1.3.2: Added changes made on the master branch.
+        -1.4.0: Fixed the issue of drop-down list not centering.
+        -1.4.1; Added details to button, aligned the menu to button
 */
 <!-- TODO add possible sliding capability to section -->
+header
+{
+    
+}
+img
+{
+    height: auto;
+    max-height: 200px;
+    width: 100%;
+}
+
+ul#navigation{
+    float: left;
+    position: relative;
+    background: #330000;
+    width: 100%;
+    height: 40px;
+    z-index: 1;
+}
+
+ul#navigation ul li ul {
+    top: -11px;
+    left: 108px; /* strong related to width:180px; from above */
+}
+
+ul#navigation li  {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    float: left;
+    display: inline;
+    background: #732407;
+    padding: 8px;
+    width: 13%;
+}
+
+ul#navigation li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+ul#navigation li ul{
+    display: none;
+    position: absolute;
+    padding-top: 10px;
+}
+
+ul#navigation li:hover ul{
+    display: block;
+}
+
+ul#navigation li:hover {
+    background: brown;
+}
+
+ul#navigation li:hover > ul
+{
+    visibility: visible;
+}
+
+ul#navigation ul, ul#navigation ul li ul {
+    visibility: hidden;
+}
+
+ul#navigation li li   {
+    display: block;
+    background: #732407;
+    box-sizing: content-box;
+    width: 125px;
+    padding: 11px;
+    z-index: 1;
+}
+
+
+html
+{
+  background: url(https://c2.staticflickr.com/8/7422/12209459935_a0f969ddd6_b.jpg)repeat;
+}
+
+body{
+    margin: 0 0 100px;
+}
 
 aside {
     float: left;
-    background-color: red;
-    width: 24.5%;
+    height: 500px;
+    background-color: #FFC154;
+    width: 23%;
+    max-width: 230px;
+    border-radius: 6px 6px 6px 6px;
+    border-style: groove;
+    border-color: #FFC454;
+    border-width: 5px;
 }
 
 section {
-    float: right;
-    background-color: yellow;
+    background-color: #ffffff;
+    opacity: 0.4;
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
     width: 75%;
+    float: right;
 }
 
-header
-{
-    background-color: blue;
-}
 
 article
 {
@@ -36,10 +132,62 @@ article
 
 footer
 {
-    background-color: magenta;
-    text-align: center;
-    width: 100%;
     position: absolute;
     left: 0;
     bottom: 0;
+    opacity: 0.7;
+    height: 100px;
+    width: 100%;
+    background: grey;
+    text-align: center;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+    border-radius: 20px;
+    border: groove #c0c7cc 4px;;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: -1;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: block;
+    width: 100px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    top: 0;
+    left: 85px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
 }

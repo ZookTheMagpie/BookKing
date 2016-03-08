@@ -40,10 +40,11 @@ The navigation
     margin-left: 38%;
     
     
+    
 }
 
 #email {
-    
+    margin-top: 10%;
     margin-bottom: 1%;
     margin-left: 1.3%;
     
@@ -62,4 +63,9 @@ The navigation
 #submit {
     margin-bottom: 1%;
     
+}
+
+#about_header {
+    margin-left: 42%;
+    font-size: 240%;
 }
