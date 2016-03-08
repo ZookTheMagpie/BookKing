@@ -1,0 +1,36 @@
+header
+{
+    background-color: blue;
+}
+
+section
+{
+    background-color: red;
+    width: 75%;
+    float: left;
+}
+
+article
+{
+    background-color: orange;
+    float: left;
+    width: 43%;
+    margin: 3%;
+}
+
+aside
+{
+    background-color: yellow;
+    width: 24.5%;
+    float: right;
+}
+
+footer
+{
+    background-color: magenta;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
