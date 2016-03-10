@@ -47,13 +47,17 @@ article
 
 aside
 {
-    background-color: #FFC154;
+    background-color: #732407;
     width: 23%;
     float: right;
     border-radius: 6px 6px 6px 6px;
     border-style: groove;
-    border-color: #FFC454;
+    border-color: #732407;
     border-width: 5px;
+}
+aside h3
+{
+    color: white;
 }
 
 footer
