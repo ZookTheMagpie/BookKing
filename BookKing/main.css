@@ -33,6 +33,7 @@ section
     border-radius: 10px 10px 10px 10px;
     width: 75%;
     float: left;
+    min-height: 500px;
     z-index: -1;
     padding: 3px;
     margin-bottom: 60px;
@@ -51,7 +52,7 @@ article
 aside
 {
     background-color: #732407;
-    width: 23%;
+    width: 180px;
     float: right;
     border-radius: 6px 6px 6px 6px;
     border-style: groove;
@@ -148,11 +149,11 @@ ul#navigation li li   {
 }
 
 .article {
-    margin: 5px;
+    margin: 20px;
     border: 1px solid #ccc;
     float: left;
-    width: 190px;
     background-color: #ffffff;
+    width: 140px;
 }
 
 .article:hover {
@@ -160,7 +161,7 @@ ul#navigation li li   {
 }
 
 .article img {
-    width: 100%;
+    width: auto;
     height: auto;
 }
 .desc {
@@ -171,8 +172,7 @@ ul#navigation li li   {
 img
 {
     height: auto;
-    max-height: 200px;
-    width: 100%;
+    width: auto;
 }
 
 
@@ -180,15 +180,15 @@ img
 
 .css-slideshow{
   position: relative;
-  max-width: 495px;
-  height: 370px;
+  width: 100%;
+  height: auto;
   margin: 5em auto .5em auto;
 }
 .css-slideshow figure{
-  margin: 0;
-  max-width: 495px;
-  height: 370px;
-  background: #000;
+  margin-left: 10%;
+  width: 80%;
+  height: auto;
+  background: rgba(0,0,0, .5);
   position: absolute;
 }
 .css-slideshow img{
@@ -196,12 +196,11 @@ img
 }
 .css-slideshow figcaption{
   position: absolute;
-  top: 0;
+  right: 20%;
+  top: 25%;
   color: #fff;
-  background: rgba(0,0,0, .3);
-  font-size: .8em;
+  font-size: 20px;
   padding: 8px 12px;
-  opacity: 0;
   transition: opacity .5s;
 }
 .css-slideshow:hover figure figcaption{
