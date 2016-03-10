@@ -255,3 +255,17 @@ figure:nth-child(4) {
     opacity: 1;
   }
 }
+
+.bookLinks img
+{
+    width: 10%;
+    height: auto;
+    max-height: 100px;
+}
+
+.bookLinks
+{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 25%;
+}
