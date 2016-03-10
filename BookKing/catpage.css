@@ -103,6 +103,7 @@ body{
 aside {
     float: left;
     height: 500px;
+    background: #732407;
     color: white;
     width: 10%;
     max-width: 230px;
@@ -114,6 +115,8 @@ aside {
 section {
     border-radius: 10px 10px 10px 10px;
     width: 88%;
+    background-color: transparent;
+    border-color: transparent;
     float: right;
 }
 
@@ -221,5 +224,5 @@ div.genre {
 
 h4, p {
     color: white;
-    width: 90%;
+    width: 90%; 
 }
