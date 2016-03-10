@@ -103,7 +103,7 @@ body{
 aside {
     float: left;
     height: 500px;
-    background: #FFC454;
+    background: #732407;
     color: white;
     width: 10%;
     max-width: 230px;
@@ -216,5 +216,5 @@ div.genre {
 
 h4, p {
     color: white;
-    width: 90%;
+    width: 90%; 
 }
