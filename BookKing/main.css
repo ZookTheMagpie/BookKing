@@ -1,0 +1,265 @@
+html
+{
+    background: url(https://c2.staticflickr.com/8/7422/12209459935_a0f969ddd6_b.jpg)repeat;
+    overflow: scroll;
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    margin: 0 0 60px;
+}
+
+
+header
+{
+
+}
+
+.headerimg
+{
+    height: auto;
+    max-height: 200px;
+    width: 100%;
+}
+
+section
+{
+    background-color: rgba(255, 255, 255, .3);
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    width: 75%;
+    float: left;
+    z-index: -1;
+    padding: 3px;
+    margin-bottom: 60px;
+    max-height: 700px;
+    overflow: hidden;
+}
+
+article
+{
+    margin: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+}
+
+aside
+{
+    background-color: #732407;
+    width: 23%;
+    float: right;
+    border-radius: 6px 6px 6px 6px;
+    border-style: groove;
+    border-color: #732407;
+    border-width: 5px;
+}
+aside h3
+{
+    color: white;
+}
+
+footer
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    background-color: rgba(115, 36, 7, .9);
+    text-align: center;
+}
+
+/*
+    The navigation 
+    Created on : 25.feb.2016, 13:20:52
+    Author     : Øystein & Alexander
+    Change log:
+        -1.3.16: Changed colour and form of the navigation
+        -1.3.16: Fixed overlapping navigation elements
+*/
+
+ul#navigation{
+    float: left;
+    position: relative;
+    background: #330000;
+    width: 100%;
+    height: 36px;
+    z-index: 1;
+}
+
+ul#navigation ul li ul {
+    top: -11px;
+    left: 108px; /* strong related to width:180px; from above */
+}
+
+ul#navigation li  {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    float: left;
+    display: inline;
+    background: #732407;
+    padding: 8px;
+    width: 13%;
+}
+
+ul#navigation li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+ul#navigation li ul{
+    display: none;
+    position: absolute;
+    padding-top: 10px;
+}
+
+ul#navigation li:hover ul{
+    display: block;
+}
+
+ul#navigation li:hover {
+    background: brown;
+}
+
+ul#navigation li:hover > ul
+{
+    visibility: visible;
+}
+
+ul#navigation ul, ul#navigation ul li ul {
+    visibility: hidden;
+}
+
+ul#navigation li li   {
+    display: block;
+    background: #732407;
+    box-sizing: content-box;
+    width: 125px;
+    padding: 11px;
+    z-index: 1;
+}
+
+.article {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 190px;
+    background-color: #ffffff;
+}
+
+.article:hover {
+    border: 1px solid #777;
+}
+
+.article img {
+    width: 100%;
+    height: auto;
+}
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+img
+{
+    height: auto;
+    max-height: 200px;
+    width: 100%;
+}
+
+
+
+
+.css-slideshow{
+  position: relative;
+  max-width: 495px;
+  height: 370px;
+  margin: 5em auto .5em auto;
+}
+.css-slideshow figure{
+  margin: 0;
+  max-width: 495px;
+  height: 370px;
+  background: #000;
+  position: absolute;
+}
+.css-slideshow img{
+  box-shadow: 0 0 2px #666;
+}
+.css-slideshow figcaption{
+  position: absolute;
+  top: 0;
+  color: #fff;
+  background: rgba(0,0,0, .3);
+  font-size: .8em;
+  padding: 8px 12px;
+  opacity: 0;
+  transition: opacity .5s;
+}
+.css-slideshow:hover figure figcaption{
+  transition: opacity .5s;
+  opacity: 1;
+}
+.css-slideshow-attr{
+  max-width: 495px;
+  text-align: right;
+  font-size: .7em;
+  font-style: italic;
+  margin:0 auto;
+}
+.css-slideshow-attr a{
+  color: #666;
+}
+.css-slideshow figure{
+  opacity:0;
+}
+figure:nth-child(1) {
+  animation: xfade 48s 42s infinite;
+}
+figure:nth-child(2) {
+  animation: xfade 48s 36s infinite;
+}
+figure:nth-child(3) {
+  animation: xfade 48s 30s infinite;
+}
+figure:nth-child(4) {
+  animation: xfade 48s 24s infinite;
+}
+figure:nth-child(5) {
+  animation: xfade 48s 18s infinite;
+}
+figure:nth-child(6) {
+  animation: xfade 48s 12s infinite;
+}
+figure:nth-child(7) {
+  animation: xfade 48s 6s infinite;
+}
+figure:nth-child(8) {
+  animation: xfade 48s 0s infinite;
+}
+
+@keyframes xfade{
+  0%{
+    opacity: 1;
+  }
+  10.5% {
+    opacity: 1;
+  }
+  12.5%{
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
