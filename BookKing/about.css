@@ -29,26 +29,27 @@ aside li li{
 }
 
 aside a:hover{
-    background: #969694;
+    background: brown;
 }
 
 h2
 {
     text-align: center;
-}
-
-aside
-{
-    float: left;
-    
-}
-
-article h3{
-    text-align: center;
     color: white;
 }
+
+article{
+    color: white;
+}
+
 
 .ingress{
     font-weight: bold;
     
+}
+#profilBilde{
+    width: 10%;
+    float: left;
+    
+    margin-left: 70px;
 }
