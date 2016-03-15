@@ -183,7 +183,7 @@ img
   position: relative;
   max-height: 212px;
   width: 100%;
-  height: auto;
+  height: 212px;
   margin: 5em auto .5em auto;
 }
 .css-slideshow figure{
@@ -260,13 +260,14 @@ figure:nth-child(4) {
 {
     width: 10%;
     height: auto;
-    max-height: 100px;
+    max-height: 85px;
+    max-width: 70px;
 }
 
 .bookLinks
 {
-    position: absolute;
+    position: relative;
     margin-left: 10%;
-    margin-top: 25%;
+    margin-top: 20px;
 }
 
