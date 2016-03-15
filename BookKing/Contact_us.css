@@ -1,28 +1,4 @@
 
-
-#meny{
-    
-    float: left;
-    background-color: blue;
-        
-}
-
-#meny li a{
-    color: white;
-    text-decoration: none;
-    
-}
-
-#meny li{
-     list-style-type: none;
-}
-
-#meny a:hover{
-    background: #969694;
-    border: 1px solid #999;
-  
-}
-
 #about {
     border-color: transparent;
   background-color: transparent;
@@ -76,10 +52,4 @@
 #comment {
      height: 100px;
     width: 200px;
-}
-
-#header {
-    height:200px;
-    width:100%;
-    
 }
