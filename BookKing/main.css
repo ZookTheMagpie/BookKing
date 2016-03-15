@@ -261,6 +261,7 @@ figure:nth-child(4) {
     width: 10%;
     height: auto;
     max-height: 85px;
+    max-width: 70px;
 }
 
 .bookLinks
