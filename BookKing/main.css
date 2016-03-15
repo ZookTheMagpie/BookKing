@@ -200,7 +200,7 @@ img
 }
 .css-slideshow figcaption{
   position: absolute;
-  right: 20%;
+  left: 0;
   margin-left: 30%;
   top: 25%;
   color: #fff;
