@@ -1,0 +1,85 @@
+
+
+#meny{
+    
+    float: left;
+    background-color: blue;
+        
+}
+
+#meny li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+#meny li{
+     list-style-type: none;
+}
+
+#meny a:hover{
+    background: #969694;
+    border: 1px solid #999;
+  
+}
+
+#about {
+    border-color: transparent;
+  background-color: transparent;
+  margin-top: -5%;
+  font-weight:bold;
+}
+
+#about_form {
+    margin-left: 180%;
+    height:250px;
+    width:300%;
+    
+    
+    
+}
+
+#email {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 0%;
+    height: 25px;
+    width: 200px;
+    
+}
+
+#comment {
+    margin-bottom: 1%;
+    
+}
+
+#subject {
+    margin-bottom: 1%;
+    margin-left: 0%;
+     height: 25px;
+    width: 200px;
+}
+
+#submit {
+    margin-bottom: 1%;
+    
+}
+
+#about_header {
+    margin-left: 180%;
+    font-size: 240%;
+    width: 100%;
+    
+    
+}
+
+#comment {
+     height: 100px;
+    width: 200px;
+}
+
+#header {
+    height:200px;
+    width:100%;
+    
+}
