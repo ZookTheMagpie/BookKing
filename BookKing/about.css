@@ -7,35 +7,29 @@ The navigation
 */
 
 
-meny{
+aside{
     
     float: left;
     
 }
 
-meny li a{
+aside li a{
     color: white;
     text-decoration: none;
     
 }
 
-meny li{
+aside li{
      list-style-type: none;
 }
 
-meny li li{
+aside li li{
     list-style-type: circle;
     color: white;
 }
 
-meny a:hover{
+aside a:hover{
     background: #969694;
-}
-
-section article{
-    margin: 0 0 0 20px;
-      
-    padding-left: 20px;
 }
 
 h2
