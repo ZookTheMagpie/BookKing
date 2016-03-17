@@ -58,3 +58,6 @@ section
 {
     max-height: none;
 }
+div.article img {
+    max-width: 140px;
+}
