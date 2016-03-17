@@ -154,6 +154,7 @@ ul#navigation li li   {
     float: left;
     background-color: #ffffff;
     width: 140px;
+    min-height: 350px;
 }
 
 .article:hover {

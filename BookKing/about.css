@@ -53,3 +53,8 @@ article{
     
     margin-left: 70px;
 }
+
+section
+{
+    max-height: none;
+}
