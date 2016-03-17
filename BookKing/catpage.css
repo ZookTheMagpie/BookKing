@@ -224,7 +224,7 @@ div.genre {
 h4
 {
     font-size: 20px;
-    width: 14%;
+    width: 25%;
     background-color: rgba(255, 255, 255, .5);
 }
 
@@ -234,4 +234,9 @@ p {
     font-weight: bold;
     background-color: rgba(255, 255, 255, .5);
     
+}
+
+section
+{
+    max-height: none;
 }
