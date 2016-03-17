@@ -200,6 +200,8 @@ div.article {
     float: left;
     width: 190px;
     background-color: #ffffff;
+    min-height: 326px;
+    max-height: 326px;
 }
 
 div.article:hover {
