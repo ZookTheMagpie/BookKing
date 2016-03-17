@@ -13,14 +13,13 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="../main.css">
         <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="../about.css">
-        
-
+        <link rel="stylesheet" type="text/css" href="../Contact_us.css">
         
 
     </head>
     <body>
         <header> <img class="headerimg" src="../BookKingHeader.jpg" /> </header>
-         <nav id="nav">
+        <nav id="nav">
             <ul id="navigation">
                 <li><a href="../index.html">Home</a>
                 </li>
@@ -64,46 +63,39 @@ and open the template in the editor.
                 <li><a href="../About.us.html">About us</a></li>
             </ul>
         </nav>
-        <aside>
-                 <ul>
+        
+            <aside id="meny">
+                <ul>
                     <li>
                         <a href="../About.us.html">About us</a>  
                     </li>
                     <li>
-                        <a href="Historie.html">History</a>
-                    </li>
-                    <li> <a href="Medlemmer.html">Members</a>
-                       
-                        <ul>
-                            <li><a href="Hallvard.html">Hallvard</a></li>
-                            <li><a href="Andre.html">Andrè</a></li>
-                            <li><a href="Kristian.html">Kristian</a></li>
-                            <li><a href="Oystein.html">Øystein</a></li>
-                            <li><a href="Alexander.html">Alexander</a></li>
-                        </ul>
-                            
+                        <a href="historie.html">History</a>
                     </li>
                     <li>
-                        <a href="Kontakt_oss.html">Contact us</a>
+                        <a href="medlemmer.html">Members</a>
+                    </li>
+                    <li>
+                        <a href="kontaktoss.html">Contact us</a>
                     </li>
                     
                 </ul>
             </aside>
-        <section>
-            <h2>Kristian</h2>
-            <img id="profilBilde" src="profilbilde.png" alt="profilbilde" />
+            <section>
             <article>
-                
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sodales condimentum ullamcorper. Nunc laoreet tincidunt sodales.
-                    Duis maximus, tortor id rhoncus elementum, lacus augue egestas ipsum, quis ultrices lectus ipsum ac metus. In non ante in odio 
-                    aliquam posuere at ac urna. Cras vel posuere sem, eget gravida turpis. Nullam facilisis convallis sodales. Proin pellentesque odio 
-                    et hendrerit mattis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec egestas 
-                    convallis erat, vitae placerat nisl dignissim sit amet. Ut ut ullamcorper neque. Suspendisse scelerisque diam vitae erat pharetra 
-                    mattis. Ut placerat sem at nibh facilisis lacinia. Cras semper ut ex at efficitur.
-                </p>
+                <h2 id="about_header">Contact us!</h2>
+
+                    <form id="about_form" action="MAILTO:geeky_assb@live.no" method="post" enctype="text/plain">
+                        Subject:<br>
+                        <input id="subject" type="text" name="name" value="The subject"><br>
+                        E-mail:<br>
+                        <input id="email" type="text" name="mail" value="Your email"><br>
+                        Comment:<br>
+                        <textarea id="comment"  name="comment">Your comment</textarea><br><br>
+                        <input type="submit" value="Send">
+                        <input type="reset" value="Reset">
+                    </form>
             </article>
-            
         </section>
         <footer>
 
@@ -112,6 +104,5 @@ and open the template in the editor.
             </small>
 
         </footer>
-        
     </body>
 </html>
